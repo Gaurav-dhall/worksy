@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Worksy-Because Procrastination is Overrated</title>
+    <link rel="stylesheet" href="loginstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bgcircles_topleft"></div>
+    <div class="bgcircles_bottomleft"></div>
+    <div class="bgcircles_centre"></div>
+    <div class="bgcircles_bottomright"></div>
+
+    <div class="container">
+      <div class="left">
+        <img
+          class="loginclipart"
+          src="assets/pngforlogin.png"
+          alt="login clipart png"
+        />
+      </div>
+      <div class="right">
+        <div class="right_main_div">
+          <form action="post">
+            <h1 class="loginhead" style="text-align: left; color: white; transition: transfom 0.3s ease;">Login</h1>
+            <h2 class="loginhead" style="text-align: left; color: white; font-weight: 100; transition:transform 0.3s ease;">
+              Glad you're back.!
+            </h2>
+            <div class="forminputs">
+              <input type="text" id="username" placeholder="Username" />
+              <div
+                style="
+                  width: 24vw;
+                  display: inline-flex;
+                  align-items: center;
+                  height: 10vh;
+                "
+              >
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                /><img
+                  style="position: relative; left: -31px; cursor: pointer"
+                  src="assets/Eye_Open.png"
+                  alt="eyes open"
+                />
+              </div>
+              <div
+                style="
+                  text-align: left;
+                  display: inline-block;
+                  align-self: self-start;
+                "
+              >
+                <input type="checkbox" id="rememberme" /><label for="rememberme"
+                  >Remember me</label
+                >
+              </div>
+              <input type="button" value="Login" />
+              <a href="" class="forgotpass">Forgot password ?</a>
+            </div>
+          </form>
+
+          <img
+            src="assets/or.png"
+            style="width: 100%; margin-top: 50px"
+            alt="or"
+          />
+          <div class="socialmediacontainer">
+            <a  class="icon"
+              href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-753400977%3A1723791490071046&ddm=0"
+              ><img
+                style="cursor: pointer"
+                src="assets/devicon_google.png"
+                alt="google_icon"
+            /></a>
+            <a class="icon" href="https://www.facebook.com/login/"
+              ><img
+                style="cursor: pointer"
+                src="assets/logos_facebook.png"
+                alt="facebook_icon"
+            /></a>
+            <a class="icon" href="https://github.com/login"
+              ><img
+                style="cursor: pointer"
+                src="assets/bi_github.png"
+                alt="github_icon"
+            /></a>
+          </div>
+
+          <footer style="margin-top: 50px">
+            <div style="color: white">
+              Don’t have an account ?
+              <a class="signupbutton"  href="">Signup</a>
+            </div>
+            <a href="" class="lowerfooter">Terms & Conditions </a
+            ><a href="" class="lowerfooter">Support </a
+            ><a href="" class="lowerfooter">Customer Care </a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
